@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
-.box {
-    display: inline-block;
-    width: 100px;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    flex-basis: 100px;
     height: 100px;
     border: 6px solid darkred;
     /* border-radius: 5px; */
@@ -13,6 +18,6 @@
     margin: 10px;
 }
 
-.box:nth-child(even) {
-    background-color: gold;
+.item:nth-child(2) {
+    flex-grow: 1;
 }
