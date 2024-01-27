@@ -1,0 +1,21 @@
+.format-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 444px;
+    width: 349px;
+    padding: 24px;
+    background: linear-gradient(
+        180deg,
+        rgba(49, 38, 26, 0) 55.21%,
+        rgba(49, 38, 26, 0.71) 72.92%,
+        #31261A 100%);
+    
+    border-radius: 16px;
+    transition: transform 1s;
+}
+
+.format-card:hover {
+    transform: scale(1.05);
+}
